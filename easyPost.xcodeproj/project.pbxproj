@@ -54,14 +54,22 @@
 		2FA796441D22D703004E7600 /* easyPost */ = {
 			isa = PBXGroup;
 			children = (
-				2FA796451D22D703004E7600 /* AppDelegate.swift */,
 				2FA796471D22D703004E7600 /* ViewController.swift */,
+				2FA796571D22D926004E7600 /* Support */,
+			);
+			path = easyPost;
+			sourceTree = "<group>";
+		};
+		2FA796571D22D926004E7600 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2FA796451D22D703004E7600 /* AppDelegate.swift */,
 				2FA796491D22D703004E7600 /* Main.storyboard */,
 				2FA7964C1D22D703004E7600 /* Assets.xcassets */,
 				2FA7964E1D22D703004E7600 /* LaunchScreen.storyboard */,
 				2FA796511D22D703004E7600 /* Info.plist */,
 			);
-			path = easyPost;
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +294,7 @@
 				2FA796561D22D703004E7600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
