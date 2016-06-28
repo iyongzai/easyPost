@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2FA796461D22D703004E7600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA796451D22D703004E7600 /* AppDelegate.swift */; };
-		2FA796481D22D703004E7600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA796471D22D703004E7600 /* ViewController.swift */; };
 		2FA7964B1D22D703004E7600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA796491D22D703004E7600 /* Main.storyboard */; };
 		2FA7964D1D22D703004E7600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA7964C1D22D703004E7600 /* Assets.xcassets */; };
 		2FA7965C1D22DDD2004E7600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA7965A1D22DDD2004E7600 /* LaunchScreen.storyboard */; };
+		2FA796621D22DF43004E7600 /* AYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA796611D22DF43004E7600 /* AYHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FA796421D22D703004E7600 /* easyPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA796451D22D703004E7600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FA796471D22D703004E7600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FA7964A1D22D703004E7600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FA7964C1D22D703004E7600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA796511D22D703004E7600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA7965B1D22DDD2004E7600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FA796611D22DF43004E7600 /* AYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		2FA796441D22D703004E7600 /* easyPost */ = {
 			isa = PBXGroup;
 			children = (
-				2FA796471D22D703004E7600 /* ViewController.swift */,
+				2FA7965D1D22DF19004E7600 /* Home */,
 				2FA796571D22D926004E7600 /* Support */,
 			);
 			path = easyPost;
@@ -70,6 +70,38 @@
 				2FA796511D22D703004E7600 /* Info.plist */,
 			);
 			name = Support;
+			sourceTree = "<group>";
+		};
+		2FA7965D1D22DF19004E7600 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7965E1D22DF19004E7600 /* Model */,
+				2FA7965F1D22DF19004E7600 /* View */,
+				2FA796601D22DF19004E7600 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2FA7965E1D22DF19004E7600 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FA7965F1D22DF19004E7600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FA796601D22DF19004E7600 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FA796611D22DF43004E7600 /* AYHomeViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA796481D22D703004E7600 /* ViewController.swift in Sources */,
 				2FA796461D22D703004E7600 /* AppDelegate.swift in Sources */,
+				2FA796621D22DF43004E7600 /* AYHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
